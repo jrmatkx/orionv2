@@ -1,7 +1,7 @@
 # orionv2
 Stack Docker Lamp para Orion
 
-En el servicio httpd está habilitado el volumen 
+En el servicio httpd está habilitado el volumen
   volumes:
     - ./public_html:/var/www/html
 
