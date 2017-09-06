@@ -1,11 +1,11 @@
 httpd:
-  build: .
+  image: php56ioncube
   links:
     - maria_db:db
   ports:
-    - 8180:80
+    - 80:80
   volumes:
-    - ~/public_html:/var/www/html
+    - ./public_html:/var/www/html
 maria_db:
   image: mariadb
   environment:
