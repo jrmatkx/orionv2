@@ -1,5 +1,5 @@
 httpd:
-  image: jrma/php56:v1
+  image: jrma/php56:cron
   links:
     - maria_db:db
   ports:
