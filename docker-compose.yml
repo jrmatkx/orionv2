@@ -1,5 +1,5 @@
 httpd:
-  image: php56ioncube
+  image: jrma/php56:v1
   links:
     - maria_db:db
   ports:
